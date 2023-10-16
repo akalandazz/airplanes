@@ -185,5 +185,31 @@ terraform.rc
 
 # Ignore any .terraform.lock.hcl files that may be created
 .terraform.lock.hcl
-auth-provider/keys/falcons/private_key.pem
-auth-provider/keys/falcons/public_key.pem
+auth-provider/keys/*
+
+# dependencies
+/node_modules
+
+# production
+/build
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment variables file
+.env
+
+# macOS files
+.DS_Store
+
+# editor directories and files
+.idea
+.vscode
+
+# Jest coverage report
+coverage/
+
+# npm package lock file
+package-lock.json
