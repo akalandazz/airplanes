@@ -213,3 +213,5 @@ coverage/
 
 # npm package lock file
 package-lock.json
+
+.next
