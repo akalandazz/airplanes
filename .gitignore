@@ -185,3 +185,5 @@ terraform.rc
 
 # Ignore any .terraform.lock.hcl files that may be created
 .terraform.lock.hcl
+auth-provider/keys/falcons/private_key.pem
+auth-provider/keys/falcons/public_key.pem
